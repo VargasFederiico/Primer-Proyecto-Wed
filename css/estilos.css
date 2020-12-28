@@ -1,0 +1,167 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #333;
+    color: white;
+    margin: 1px;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    letter-spacing: 15px;
+    font-size: 1.3em;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.45 linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background-color: darkgray;
+}
+
+.main {
+    padding-top: 80px;
+}
+
+.contenedor .form .form-header .form-title {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #ff851b;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span {
+    color: #fff;
+}
+
+.contenedor .form {
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    float: left;
+}
+
+.contenedor .form .form-label {
+    display: block;
+    color: #ff851b;
+    font-size: 16px;
+    font-family: roboto;
+    position: relative;
+}
+
+.contenedor .form .form-input,
+.form-textarea {
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: roboto;
+}
+
+.contenedor .form .form-textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+    ;
+}
+
+.contenedor .form .btn-submit {
+    width: 100%;
+    font-family: roboto;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor .form .btn-submit:hover {
+    background: #F29718;
+}
+
+.containerMap {
+    float: right;
+}
+
+.maps {
+    padding: 30px 10px;
+}
+
+.redes {
+    background: #F29718;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    transition: .3s ease all;
+    text-align: center;
+    clear: both;
+}
+
+.redes:hover {
+    background: #ff851b;
+    color: rgb(74, 168, 65);
+    box-shadow: 3px 3px 50px rgba(0, 0, 0, .6);
+}
